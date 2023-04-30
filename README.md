@@ -21,12 +21,19 @@ Please note: This is meant for Development and Testing only.
 All Databases will be up during startup. So just use the following IP and credentials to connect! 
 Have fun!
 
+
+[OS Related information]
+
 IP Address: 192.168.30.128
 Cockpit webUI: https://192.168.30.128:9090
 
+
 OS Credentials : dbvm/dbvm
                           root/root
-========================
+
+
+[Databases]
+
 Oracle 23 Developer: Port:1521
 Default Username: sys/system/pdbadmin
 Password: oracle
@@ -34,23 +41,23 @@ PDB: FREEPDB1:1521 - Pluggable DB Name
 SCHEMA: OT SCHEMA
 use OT for username
 OT for Password
-=========================
+
+
 
 Microsoft SQL Server Express : Port:1433
 Default Username: sa
 Password: Microsoft123
 Database: WideWorldImporters 
-=========================
+
 
 PostgreSQL: Port 5432
 Default username: postgres
 Password: postgres
 Database: DVD Sample
-=========================
 
 MySQL: Port 3306
 Default username: dbvm
 Password: MySQL123456
 Database: Sakila
 
-========================
+
